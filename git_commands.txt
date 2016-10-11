@@ -1,0 +1,48 @@
+# Show the commits made in this repository, starting with the most recent.
+$ git log
+
+# Use up and down arrows to navigate through git log.
+# Type 'q' to exit the log. (Uses less commands.)
+
+# Make a copy of an entire Git repository, including the history, onto your own computer.
+$ git clone https://github.com/udacity/asteroids.git
+
+# Get colored diff output
+$ git config --global color.ui auto
+
+# Compare two commits, printing each line that is present in one commit but not the other.
+# git diff first_id second_id
+$ git diff f19cb1b80fe27e938e4d72770ca0a42f25e99ecc b0678b161fcf74467ed3a63110557e3d6229cfa6
+$ git diff 80f3bc7aab53d79640da819d9c1c7e05f9f57620 343935ff4f3853653f23e3694d64ffa3035ed1de
+
+# Temporarily reset all files in a directory to their state at the time of a specific commit.
+# git checkout != svn checkout
+# You will be in 'detached HEAD' state when you checkout an older revision.
+$ git checkout f19cb1b80fe27e938e4d72770ca0a42f25e99ecc
+
+# latest asteroids revision: 3884eab839af1e82c44267484cf2945a766081f3
+
+
+$ git checkout 25ede836903881848fea811df5b687b59d962da3
+
+
+# Create a Git repository in an empty directory, or in a directory that already contains files.
+# Git does not automatically create a commit, so you have to do that yourself if the
+# directory already contains files.
+$ git init
+$ git commit 				#(optional. see note above.)
+
+# See what files have changed since the last commit.
+$ git status
+
+# You don't have to commit all files to your Git repository at once.
+# Instead you can add files to a staging area so that you have control over
+# what specific changes are grouped into each commit.
+$ git add file_1.txt
+$ git add file_2.txt
+$ git commit 
+
+# Configure Git to open Notepad for commit messages.
+$ git config core.editor notepad
+
+

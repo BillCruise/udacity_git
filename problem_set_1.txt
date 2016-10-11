@@ -1,0 +1,37 @@
+Reconstructing a final file
+Suppose you had a file, called file.txt, and you made a copy of this file, named it updated.txt and made some changes to it. Next, suppose you ran diff -u file.txt updated.txt.
+
+The contents of the original file and the output of the diff are below. Given this information, it is possible to reconstruct what the final contents of updated.txt must have been. On the next screen, enter these contents.
+
+Contents of original file.txt
+A
+B
+C
+D
+E
+F
+
+These letters are stand-ins for the actual lines of the file. For example, this file could be a recipe, and the lines could be ingredients. Or the file could be a code file, and each letter could stand for a line of code.
+
+Output of diff -u
+--- file.txt    2014-12-03 16:27:41.000000000 -0500
++++ updated.txt    2014-12-03 16:28:11.000000000 -0500
+@@ -2,4 +2,6 @@
+ B
++$
+ C
+-D
++#
++%
+ E
+Just like the letters, the symbols are stand-ins for actual lines.
+
+Answer:
+A
+B
+$
+C
+#
+%
+E
+F
