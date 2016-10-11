@@ -1,0 +1,4 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+Git initializes an empty repository in the directory where you ran the init command.
+You need to run git init to tell Git to create tracking files for that directory.
