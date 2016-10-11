@@ -45,4 +45,25 @@ $ git commit
 # Configure Git to open Notepad for commit messages.
 $ git config core.editor notepad
 
+# View the differences between the working directory and the staging area.
+$ git diff
+
+# View the differences between the staging area and the lastest commit to the repository.
+$ git diff --staged
+
+# Discard any changes in either the working directory or the staging area.
+# Be careful! This command is not reversible! 
+$ git reset --hard
+
+
+# Create and view branches
+$ git branch
+$ git branch easy-mode
+$ git checkout easy-mode
+
+
+
+# Reset HEAD.
+$ git checkout master
+
 
