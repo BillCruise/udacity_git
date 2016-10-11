@@ -10,3 +10,19 @@ The staging area is an intermediary between the working directory and the reposi
 It gives you the flexibility to group files in your working directory together so that you can
 control what goes in to each commit to the repository.
 
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+Git allows you to specify which files are added to the staging area, then commit the entire staging
+area to the repository as one version.
+
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+When experimenting with new features, branches will help you keep organized by adding all of the
+changes on a branch, while other develpment (bug fixes) continues on the main branch.
+
+
+How do the diagrams help you visualize the branch structure?
+
+Diagrams help you keep track of which commits are reachable from which parts of the branch structure.
