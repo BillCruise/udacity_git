@@ -62,8 +62,21 @@ $ git branch easy-mode
 $ git checkout easy-mode
 
 
-
-# Reset HEAD.
+# Reset HEAD back to the master branch.
 $ git checkout master
+
+
+# Merge a branch into the master branch.
+$ git merge master coins
+
+
+# Show the difference between a commit and its parent (without knowing the parent id).
+$ git show 25ede836903881848fea811df5b687b59d962da3
+
+# Delete a branch that's no longer needed.
+# It might have been an experimental branch, or it might already be merged.
+# This won't delete the commits in the branch, just the label.
+$ git branch -d coins
+
 
 
