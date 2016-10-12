@@ -26,3 +26,10 @@ changes on a branch, while other develpment (bug fixes) continues on the main br
 How do the diagrams help you visualize the branch structure?
 
 Diagrams help you keep track of which commits are reachable from which parts of the branch structure.
+
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+Merging to branches results in the changes from one branch being added to another.
+We represent it in a diagram as the two branches coming together to form one branch.
+
