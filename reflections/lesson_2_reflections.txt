@@ -33,3 +33,9 @@ What is the result of merging two branches together? Why do we represent it in t
 Merging to branches results in the changes from one branch being added to another.
 We represent it in a diagram as the two branches coming together to form one branch.
 
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Automatic merging is much easier, but Git won't always be able to do it for you.
+Manually merging forces you to understand the changes made by both developers. It is also more time-consuming.
+
