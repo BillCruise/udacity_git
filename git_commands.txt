@@ -120,5 +120,10 @@ On branch easy-mode
 nothing to commit, working tree clean
 
 
+# Synching repositories.
+# First create a new repository on GitHub through your web browser.
+# (Don't initialize with a README, since we already have content in a local repository.)
+
+
 
 
