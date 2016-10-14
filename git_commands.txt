@@ -123,6 +123,14 @@ nothing to commit, working tree clean
 # Synching repositories.
 # First create a new repository on GitHub through your web browser.
 # (Don't initialize with a README, since we already have content in a local repository.)
+# Add the new GitHub repository as a remote in our local repository.
+$ git remote
+$ git remote add origin git@github.com:BillCruise/udacity_git.git
+$ git remote -v
+$ git push -u origin master
+
+# Get remote changes in the local repository.
+$ git pull origin master
 
 
 
