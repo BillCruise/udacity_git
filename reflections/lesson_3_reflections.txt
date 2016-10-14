@@ -12,7 +12,9 @@ automatically stay up-to-date with your remote repository?
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
 
-    Fill in your answer here
+    You create a branch when you want to change the code in a repository without changing the main line (master branch) of code.
+	You clone a repository any time you need a working copy on your own machine.
+	You fork someone else's repository when you want to make changes, but don't have permission to change their repository.
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?

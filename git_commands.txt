@@ -132,6 +132,12 @@ $ git push -u origin master
 # Get remote changes in the local repository.
 $ git pull origin master
 
+# Forking is a GitHub-specific concept. It allows you to clone someone else's
+# GitHub repository under your own GitHub account (while giving them credit).
+# This saves you from cloning to your local machine, then creating a GitHub repository
+# and pushing the local files. It's easier to just fork (one click) then clone to make changes.
+# This process is easier because Git automatically sets up a remote when you clone a repository.
+
 
 
 
