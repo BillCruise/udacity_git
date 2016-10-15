@@ -138,6 +138,21 @@ $ git pull origin master
 # and pushing the local files. It's easier to just fork (one click) then clone to make changes.
 # This process is easier because Git automatically sets up a remote when you clone a repository.
 
+# Merging remote changes.
+# First update origin/master with the latest version from the remote,
+# then merge those changes into the local master repository.
+$ git fetch origin
+$ git merge master origin/master
+
+# This is what happens automatically when you use the following command.
+$ git pull origin master
+
+# You can see the difference between the local master branch and origin/master with
+$ git fetch origin
+$ git log origin/master
+$ git diff origin/master master
+
+
 
 
 
