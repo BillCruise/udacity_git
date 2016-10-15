@@ -25,7 +25,10 @@ stored locally?
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+    You can use other version control systems, like SVN or Mercurial, or you can
+	collaborate using email and/or a bug tracker like Jira.
+	Git and GitHub help make collaborating smoother by making it easier to make
+	changes offline, and share them with others online.
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?

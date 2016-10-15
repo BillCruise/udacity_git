@@ -152,6 +152,25 @@ $ git fetch origin
 $ git log origin/master
 $ git diff origin/master master
 
+# Creating a pull request.
+# A pull request is a GitHub-specific concept, but there are steps that you should 
+# take in git to prepare to make the request.
+# 1. Create a different branch
+# 2. Make changes and commit them to the new branch
+# 3. Push the changed branch to your fork on GitHub
+# 4. Create a pull reqest from the new branch to the target branch on GitHub.
+$ git branch new_branch
+$ git checkout new_branch
+# make changes
+$ git add changed_file.txt
+$ git commit
+$ git push origin new_branch
+# make the pull request on GitHub
+
+# If you need to make changes after the pull request, you can make the change, commit it
+# to your branch, then push the branch to GitHub. The changes will automatically
+# show up in the pull request on GitHub.
+
 
 
 
