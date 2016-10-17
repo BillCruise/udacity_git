@@ -171,6 +171,12 @@ $ git push origin new_branch
 # to your branch, then push the branch to GitHub. The changes will automatically
 # show up in the pull request on GitHub.
 
+# If there are merge conflicts when you make a pull request, you have to resolve them locally.
+# (Someone has to do them locally so that the other person can check them before the merge.)
+# First, pull the changes to your local master branch. Then merge the changes into the
+# branch where you originally made the pull request, resolving the conflict.
+# Finally, commit and push the changes back to GitHub.
+
 
 
 
