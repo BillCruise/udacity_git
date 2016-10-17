@@ -177,6 +177,25 @@ $ git push origin new_branch
 # branch where you originally made the pull request, resolving the conflict.
 # Finally, commit and push the changes back to GitHub.
 
+# Updating a cross-repository pull request
+# Complete the following steps:
+# 1. Add the original repository as an upstream remote in your clone.
+$ git remote add upstream url-to-upstream-master-branch.git
+# 2. Pull the master branch from the original repository.
+$ git checkout master
+$ git pull upstream master
+# 3. Merge the master branch into your change branch and resolve conflicts.
+$ git checkout change-branch
+$ git merge master change-branch
+# 4. Push your change branch to your fork.
+$ git add changed-files.txt
+$ git commit
+$ git push origin change-branch
+# At this point, your pull request should be updated and ready to be merged.
+# Since you want the master on your fork to be up-to-date as well, checkout master and push it.
+$ git checkout master
+$ git push origin master
+
 
 
 
